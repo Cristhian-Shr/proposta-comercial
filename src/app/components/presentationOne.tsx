@@ -1,6 +1,6 @@
 const PresentationOne: React.FC = ({}) => {
   return (
-    <div className="bg-black text-slate-400 w-full h-full px-10 flex flex-col items-center md:py-20 p-6 md:px-10 lg:px-20">
+    <div className="bg-black text-slate-400 w-full h-full px-10 flex flex-col items-center p-6 md:px-10 lg:px-20">
       <h1 className="text-5xl">Proposta Comercial</h1>
       <h2 className="py-10 text-3xl">
         Impulsione Seu Negócio com Estratégias Digitais e Soluções Web de Alto
@@ -15,8 +15,8 @@ const PresentationOne: React.FC = ({}) => {
         plataformas modernas.
       </p>
 
-      {/* efeito roxo
-      <svg
+      {/* efeito roxo */}
+      {/* <svg
             viewBox="0 0 1024 1024"
             aria-hidden="true"
             className="absolute left-1/2 top-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
