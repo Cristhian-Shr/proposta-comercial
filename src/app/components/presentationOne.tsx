@@ -1,6 +1,6 @@
 const PresentationOne: React.FC = ({}) => {
   return (
-    <div className="bg-black text-slate-400 w-full h-full px-10 flex flex-col items-center p-6 md:px-10 lg:px-20">
+    <div className="aboslute bg-black text-slate-400 w-full h-full px-10 flex flex-col items-center p-6 md:px-16 lg:px-24">
       <h1 className="text-5xl pb-4">Proposta Comercial</h1>
       <span className="bg-indigo-500 mx-auto mb-6 inline-block h-1 w-[450px] rounded"></span>
       <h2 className="py-10 text-3xl">
@@ -15,21 +15,6 @@ const PresentationOne: React.FC = ({}) => {
         otimizadas, como landing pages, sites institucionais e e-commerces via
         plataformas modernas.
       </p>
-
-      {/* efeito roxo */}
-      {/* <svg
-            viewBox="0 0 1024 1024"
-            aria-hidden="true"
-            className="absolute left-1/2 top-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
-          >
-            <circle r={512} cx={512} cy={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.7" />
-            <defs>
-              <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-                <stop stopColor="#7775D6" />
-                <stop offset={1} stopColor="#E935C1" />
-              </radialGradient>
-            </defs>
-          </svg> */}
     </div>
   );
 };
