@@ -12,24 +12,30 @@ const PaidTraffic: React.FC = ({}) => {
       </p>
 
       <div className="flex gap-10">
+        {/* plano start */}
         <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] mt-10">
           <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">
-            Plano Start - Visibilidade Local
+            Plano Start
           </h3>
+          <h4 className="text-slate-200 pb-2 text-xl font-semibold sm:text-xl">Visibilidade Local</h4>
           <span className="bg-indigo-500 mx-auto mb-6 inline-block h-1 w-[90px] rounded"></span>
-          <p className="text-gray-400 mb-10 text-base leading-relaxed">
+          <p className="text-gray-400 mb-5 text-base leading-relaxed">
             Foco em{" "}
             <span className="font-bold">
               campanhas de reconhecimento de marca
             </span>{" "}
-            para negócios locais. Ideal para empresas que desejam atrair
+            para negócios locais. <br /> <span className="font-bold">Ideal para:</span> empresas que desejam atrair
             clientes da região.{" "}
           </p>
-          <p className="text-gray-400 mb-10 text-base leading-relaxed">
-            **Inclui:** - Criação de campanhas no Google e redes sociais. -
-            Relatórios mensais de desempenho. - Suporte para ajustes.
+          <p className="text-gray-400 mb-2 text-base leading-relaxed">
+            Inclui:
           </p>
-          <div className="flex flex-wrap gap-3">
+          <ul className="flex flex-col gap-2 pb-4">
+            <li>Criação de campanhas nas redes sociais.</li>
+            <li>Relatórios mensais de desempenho.</li>
+            <li>Suporte para ajustes.</li>
+          </ul>
+          <div className="flex flex-wrap gap-3 pt-5">
             <button className="text-white block w-full rounded-lg border border-gray-700 p-3 text-center text-base font-medium transition hover:border-red-600 hover:bg-red-600 hover:text-white">
               Cancel
             </button>
@@ -38,22 +44,26 @@ const PaidTraffic: React.FC = ({}) => {
             </button>
           </div>
         </div>
-
+        {/* plano advanced */}
         <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] mt-10">
           <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">
-            Plano advanced - Leads Qualificados
+            Plano advanced 
           </h3>
+          <h4 className="text-slate-200 pb-2 text-xl font-semibold sm:text-xl">Leads Qualificados</h4>
           <span className="bg-indigo-500 mx-auto mb-6 inline-block h-1 w-[90px] rounded"></span>
-          <p className="text-gray-400 mb-10 text-base leading-relaxed">
-            **Campanhas de médio impacto**, com otimização para geração de
-            leads. - **Ideal para:** Negócios que buscam expandir sua base de
-            clientes.
+          <p className="text-gray-400 mb-4 text-base leading-relaxed">
+            <span className="font-bold">Campanhas de médio impacto</span>, com otimização para geração de leads.
+            <br /> <span className="font-bold">Ideal para:</span> Negócios que buscam expandir sua base de clientes.
           </p>
-          <p className="text-gray-400 mb-10 text-base leading-relaxed">
-            **Inclui:** - Segmentação avançada de público-alvo. - Anúncios
-            dinâmicos e estratégicos. - Relatórios quinzenais.
+          <p className="text-gray-400 mb-2 text-base leading-relaxed">
+            Inclui:
           </p>
-          <div className="flex flex-wrap gap-3">
+          <ul className="flex flex-col gap-2 pb-4">
+            <li>Segmentação avançada de público-alvo.</li>
+            <li>Anúncios dinâmicos e estratégicos.</li>
+            <li>Relatórios quinzenais.</li>
+          </ul>
+          <div className="flex flex-wrap gap-3 pt-5">
             <button className="text-white block w-full rounded-lg border border-gray-700 p-3 text-center text-base font-medium transition hover:border-red-600 hover:bg-red-600 hover:text-white">
               Cancel
             </button>
@@ -62,22 +72,27 @@ const PaidTraffic: React.FC = ({}) => {
             </button>
           </div>
         </div>
-
+        {/* plano premium */}
         <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] mt-10">
-          <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">
-            Plano Premium - Resultados Explosivos
+          <h3 className="text-white pb-2 text-md font-bold sm:text-2xl">
+            Plano Premium  
           </h3>
+          <h4 className="text-slate-200 pb-2 text-xl font-semibold sm:text-xl">Resultados Explosivos</h4>
           <span className="bg-indigo-500 mx-auto mb-6 inline-block h-1 w-[90px] rounded"></span>
-          <p className="text-gray-400 mb-10 text-base leading-relaxed">
-            Estratégias de **alto impacto** para alcançar resultados
-            expressivos. - **Ideal para:** Empresas que querem dominar o mercado
+          <p className="text-gray-400 mb-4 text-base leading-relaxed">
+            Estratégias de <span className="font-bold">alto impacto</span> para alcançar resultados
+            expressivos. <br /> <span className="font-bold">Ideal para:</span> Empresas que querem dominar o mercado
             digital.
           </p>
-          <p className="text-gray-400 mb-10 text-base leading-relaxed">
-            *Inclui:** - Gestão contínua e otimização de campanhas. - Análise de
-            concorrência e tendências. - Consultoria estratégica personalizada.
+          <p className="text-gray-400 mb-2 text-base leading-relaxed">
+            Inclui:
           </p>
-          <div className="flex flex-wrap gap-3">
+          <ul className="flex flex-col gap-2 pb-4">
+            <li>Gestão contínua e otimização de campanhas.</li>
+            <li>Análise de concorrência e tendências.</li>
+            <li>Consultoria estratégica personalizada.</li>
+          </ul>
+          <div className="flex flex-wrap gap-3 pt-5">
             <button className="text-white block w-full rounded-lg border border-gray-700 p-3 text-center text-base font-medium transition hover:border-red-600 hover:bg-red-600 hover:text-white">
               Cancel
             </button>
