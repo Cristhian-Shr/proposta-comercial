@@ -3,8 +3,8 @@ import Link from "next/link";
 const PaidTraffic: React.FC = ({}) => {
   return (
     <div className="bg-black text-slate-400 w-full h-full px-10 flex flex-col items-center p-6 md:px-16 lg:px-24">
-      <h1 className="text-5xl">Nossos Serviços</h1>
-      <h2 className="py-10 text-4xl">Planos de Tráfego Pago</h2>
+      <h1 className="text-5xl text-center">Nossos Serviços</h1>
+      <h2 className="py-10 text-4xl text-center">Planos de Tráfego Pago</h2>
       <p className="text-sm md:text-base text-center">
         {" "}
         Ajudamos sua empresa a alcançar mais clientes por meio de campanhas
@@ -13,9 +13,9 @@ const PaidTraffic: React.FC = ({}) => {
         metas específicas.
       </p>
 
-      <div className="flex gap-10">
+      <div className="flex flex-col md:flex-row gap-10 mt-8 md:mt-12">
         {/* plano start */}
-        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] mt-10">
+        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] ">
           <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">
             Plano Start
           </h3>
@@ -50,7 +50,7 @@ const PaidTraffic: React.FC = ({}) => {
           </div>
         </div>
         {/* plano advanced */}
-        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] mt-10">
+        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] ">
           <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">
             Plano advanced
           </h3>
@@ -82,7 +82,7 @@ const PaidTraffic: React.FC = ({}) => {
           </div>
         </div>
         {/* plano premium */}
-        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] mt-10">
+        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] ">
           <h3 className="text-white pb-2 text-md font-bold sm:text-2xl">
             Plano Premium
           </h3>

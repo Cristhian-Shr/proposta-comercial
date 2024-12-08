@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const WebDevelopment: React.FC = ({}) => {
   return (
-    <div className="bg-black text-slate-400 w-full h-full px-10 flex flex-col items-center p-6 md:px-10 lg:px-20">
-      <h2 className="py-10 text-4xl">Desenvolvimento Web</h2>
+    <div className="bg-black text-slate-400 w-full h-full px-10 flex flex-col items-center p-6 md:px-16 lg:px-24">
+      <h2 className="py-10 text-4xl text-center">Desenvolvimento Web</h2>
       <p className="text-sm md:text-base text-center">
         ✨ Páginas otimizadas para resultados Criamos páginas estratégicas,
         ideais para campanhas específicas como promoções e geração de leads,
@@ -19,9 +19,9 @@ const WebDevelopment: React.FC = ({}) => {
         soluções digitais que realmente funcionam. Entre em contato e descubra
         como podemos ajudar!
       </p>
-      <div className="flex gap-10">
+      <div className="flex gap-10 flex-col md:flex-row mt-8 md:mt-12">
         {/* landing page */}
-        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] mt-10">
+        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px]">
           <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">
             Landing Pages
           </h3>
@@ -44,7 +44,7 @@ const WebDevelopment: React.FC = ({}) => {
         </div>
 
         {/* site institucional */}
-        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] mt-10">
+        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px]">
           <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">
             Sites Institucionais
           </h3>
@@ -67,7 +67,7 @@ const WebDevelopment: React.FC = ({}) => {
         </div>
 
         {/* E-commerce */}
-        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] mt-10">
+        <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px]">
           <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">
             E-Commerces
           </h3>
