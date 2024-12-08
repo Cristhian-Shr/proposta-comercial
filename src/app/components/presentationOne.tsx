@@ -1,7 +1,8 @@
 const PresentationOne: React.FC = ({}) => {
   return (
     <div className="bg-black text-slate-400 w-full h-full px-10 flex flex-col items-center p-6 md:px-10 lg:px-20">
-      <h1 className="text-5xl">Proposta Comercial</h1>
+      <h1 className="text-5xl pb-4">Proposta Comercial</h1>
+      <span className="bg-indigo-500 mx-auto mb-6 inline-block h-1 w-[450px] rounded"></span>
       <h2 className="py-10 text-3xl">
         Impulsione Seu Negócio com Estratégias Digitais e Soluções Web de Alto
         Impacto.
