@@ -10,7 +10,7 @@ const WorkTogether: React.FC = () => {
       </p>
       <div className="flex flex-col gap-2 pt-10">
         <Link href="https://wa.me/5551999038481?text=Quero%20conversar%20sobre%20os%20servi%C3%A7os%20oferecidos!" className="text-sm md:text-base">
-          💬 **WhatsApp:** [51 99903-8481]
+          💬 WhatsApp: 51 99903-8481
         </Link>
         <p className="text-sm md:text-base">
           📧 E-mail: [cristhianschroer@gmail.com /
