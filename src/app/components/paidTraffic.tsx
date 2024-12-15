@@ -37,7 +37,6 @@ const PaidTraffic: React.FC = ({}) => {
           </p>
           <ul className="flex flex-col gap-2 pb-4">
             <li>Criação de campanhas nas redes sociais.</li>
-            <li>Relatórios mensais de desempenho.</li>
             <li>Suporte para ajustes.</li>
           </ul>
           <div className="flex flex-wrap gap-3 pt-5">
@@ -45,14 +44,14 @@ const PaidTraffic: React.FC = ({}) => {
               href="https://wa.me/5551999038481?text=Quero%20contratar%20o%20plano%20Start%20de%20trafego%20pago!"
               className="bg-indigo-500 border-indigo-500 block w-full rounded-lg border p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90"
             >
-              Contratar agora!
+              Saber mais!
             </Link>
           </div>
         </div>
         {/* plano advanced */}
         <div className="w-full max-w-[500px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] ">
           <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">
-            Plano advanced
+            Plano Advanced
           </h3>
           <h4 className="text-slate-200 pb-2 text-xl font-semibold sm:text-xl">
             Leads Qualificados
@@ -68,16 +67,17 @@ const PaidTraffic: React.FC = ({}) => {
             Inclui:
           </p>
           <ul className="flex flex-col gap-2 pb-4">
+            <li>Plano Start.</li>
             <li>Segmentação avançada de público-alvo.</li>
             <li>Anúncios dinâmicos e estratégicos.</li>
-            <li>Relatórios quinzenais.</li>
+            <li>Planilha de controle de leads.</li>
           </ul>
           <div className="flex flex-wrap gap-3 pt-5">
             <Link
               href="https://wa.me/5551999038481?text=Quero%20contratar%20o%20plano%20Advanced%20de%20trafego%20pago!"
               className="bg-indigo-500 border-indigo-500 block w-full rounded-lg border p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90"
             >
-              Contratar agora!
+              Saber mais!
             </Link>
           </div>
         </div>
@@ -100,21 +100,20 @@ const PaidTraffic: React.FC = ({}) => {
             Inclui:
           </p>
           <ul className="flex flex-col gap-2 pb-4">
+            <li>Plano Advanced</li>
             <li>Gestão contínua e otimização de campanhas.</li>
             <li>Análise de concorrência e tendências.</li>
-            <li>Consultoria estratégica personalizada.</li>
           </ul>
           <div className="flex flex-wrap gap-3 pt-5">
             <Link
               href="https://wa.me/5551999038481?text=Quero%20contratar%20o%20plano%20Premium%20de%20trafego%20pago!"
               className="bg-indigo-500 border-indigo-500 block w-full rounded-lg border p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90"
             >
-              Contratar agora!
+              Saiba mais!
             </Link>
           </div>
         </div>
       </div>
-
     </div>
   );
 };

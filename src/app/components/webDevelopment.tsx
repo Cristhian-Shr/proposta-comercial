@@ -38,7 +38,7 @@ const WebDevelopment: React.FC = ({}) => {
               href="https://wa.me/5551999038481?text=Quero%20contratar%20o%20servi%C3%A7o%20de%20landing%20page!"
               className="bg-indigo-500 border-indigo-500 block w-full rounded-lg border p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90"
             >
-              Contratar agora!
+              Saiba mais!
             </Link>
           </div>
         </div>
@@ -61,7 +61,7 @@ const WebDevelopment: React.FC = ({}) => {
               href="https://wa.me/5551999038481?text=Quero%20contratar%20o%20servi%C3%A7o%20de%20site%20institucional!"
               className="bg-indigo-500 border-indigo-500 block w-full rounded-lg border p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90"
             >
-              Contratar agora!
+              Saiba mais!
             </Link>
           </div>
         </div>
@@ -83,7 +83,7 @@ const WebDevelopment: React.FC = ({}) => {
               href="https://wa.me/5551999038481?text=Quero%20contratar%20o%20servi%C3%A7o%20de%20E-commerce!"
               className="bg-indigo-500 border-indigo-500 block w-full rounded-lg border p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90"
             >
-              Contratar agora!
+              Saiba mais!
             </Link>
           </div>
         </div>
